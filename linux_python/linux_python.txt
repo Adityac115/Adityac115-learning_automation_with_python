@@ -1,0 +1,24 @@
+we can use some feature of linux in python as
+
+we can use : * and ? in python using import glob 
+it works as expected in python as it works in linux
+how we use them in linux e.g:
+
+echo a*       #prints all the files starting with a in that directory
+
+echo *.py     #prints all the file ends with .py in that directory
+
+echo *        #prints all files in that directory
+ 
+echo ????.py    #prints all the files that have 4 characters and then ends with .py in that directory
+
+
+how you can you them in python :
+
+print(glob.glob ('a*     ')       #prints all the files starting with a in that directory
+
+print(glob.glob ('*.py   ')       #prints all the file ends with .py in that directory
+
+print(glob.glob ('*      ')        #prints all files in that directory
+
+print(glob.glob ('????.py')          #prints all the files that have 4 characters and then ends with .py in that directory
