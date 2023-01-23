@@ -1,0 +1,48 @@
+git commit -a : Stages files automatically
+
+git log -p : Produces patch text
+
+git show : Shows various objects
+
+git diff : 	Is similar to the Linux `diff` command, and can show the differences in various commits
+
+git diff --staged : An alias to --cached , this will show all staged files compared to the named commits
+
+git add -p : Allows a user t interactively preview patches to add the current commit
+
+git mv : Simliar to linux 'mv' commamnd,this moves a files
+
+git rm : Similar to the linux 'rm' command , this deletes, or remove a files
+
+--------------------------------------------------------------------------------------
+GIT REVERT THINGS
+
+git checkout : used to effectively switch the branches
+
+git reset : basically resets the repo , rewrite the history 
+
+git commit --amend : is used to make changes to commit after the fact which can be useful for making notes about a given commit
+
+git revert : makes a new commit which effectively rolles back a previous commit. it works like a undo command.
+
+
+-----------------------------------------------------------------------------------------
+GIT BRANCHING AND MERGING
+
+git branch : used to manage branches or  show the branches list
+
+git branch <name> : Creates the branch 
+
+git branch -d <name> : deletes the branch 
+
+git branch -D <name> : Forcibly deletes the branch
+
+git checkout <branch> : Switches to the branch
+
+git checkout -b <branch> : Creates a new branch and switches to it
+
+git merge <branch> : Merge joins branches togeather
+
+git merge --abort : abort merging if the merge conflict occurs
+
+git log --graph --oneline : this shows a summarized view of the commit history for a repo
