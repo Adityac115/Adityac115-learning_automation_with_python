@@ -46,3 +46,8 @@ git merge <branch> : Merge joins branches togeather
 git merge --abort : abort merging if the merge conflict occurs
 
 git log --graph --oneline : this shows a summarized view of the commit history for a repo
+
+
+git fetch just gets the new changes ans then doesnt merge them 
+
+git pull fetches the new changes and then merge them autom automatically
